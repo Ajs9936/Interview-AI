@@ -1,0 +1,62 @@
+# Global Git ignore file for Interview-AI project contributor machines
+# Put OS, editor, and common tool ignores here. To enable globally:
+# Windows:
+#   git config --global core.excludesfile "%USERPROFILE%/.gitignore_global"
+# macOS / Linux:
+#   git config --global core.excludesfile ~/.gitignore_global
+
+# Operating systems
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+public/build/
+
+# Environment and secret files
+.env
+.env.*
+.env.*.local
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Misc
+Thumbs.db
+.DS_Store
